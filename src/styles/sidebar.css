@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid #dcdcdc;
+  padding: 30px 20px;
+}
+
+.sidebar-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e88e5;
+  margin-bottom: 30px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list li {
+  padding: 14px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: block;
+}
+
+.sidebar-list a:hover {
+  color: #1e88e5;
+}

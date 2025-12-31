@@ -1,0 +1,12 @@
+/* CONTENEDOR GENERAL */
+.layout {
+  min-height: 100vh;
+  background: #f4f6f9;
+  padding-left: 260px; /* ← RESPETA EL SIDEBAR */
+  box-sizing: border-box;
+}
+
+/* CONTENIDO */
+.main-content {
+  padding: 60px;
+}
