@@ -1,7 +1,8 @@
-export const getUsuarios = async () => {
-  const res = await fetch("/api/usuarios");
-  return await res.json();
-};
+export async function getUsuarios() {
+  const res = await fetch("http://localhost:3000/api/tabla008");
+  const json = await res.json();
+  return json; // ← el arreglo viene aquí
+}
 
 export const crearUsuario = async (nombre) => {
   const res = await fetch("/api/usuarios", {
@@ -12,3 +13,5 @@ export const crearUsuario = async (nombre) => {
 
   return await res.json();
 };
+
+

@@ -71,7 +71,7 @@ function Formulario() {
       <div className="login-card">
         {/* Left section */}
         <div className="login-left">
-          <h1 className="brand-title">Catastro de [Municipio]</h1>
+          <h1 className="brand-title">Sistema de Catastro</h1>
           
           <div className="circle circle-1"></div>
           <div className="circle circle-2"></div>

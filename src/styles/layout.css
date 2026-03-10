@@ -1,6 +1,6 @@
 .layout {
-  padding-left: 260px;
+  margin-left: 280px;   /* NO padding */
+  padding: 20px;
   min-height: 100vh;
   background: #f4f6f9;
-  box-sizing: border-box;
 }
